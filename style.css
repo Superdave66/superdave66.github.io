@@ -1,0 +1,52 @@
+
+body {
+	background-color: black;
+	font-family:"times new roman", times, sarifs;
+}
+
+h1 {
+	color: green;
+	background-color: black;
+	text-align: center;
+}
+h2{
+	color: green;
+	background-color: black;
+	text-align:center;
+}
+li a{
+	color: green;
+	text-decoration: none;
+	text-shadow: white;
+	align-items: left;
+}
+a:link{
+	text-decoration: none;
+	color: green;
+	border-width: 150 px
+
+}
+a:hover {
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+}
+a:visted{
+	color: green;
+}
+p{
+a:link{
+	text-decoration: none;
+	color: green;
+	border-color: white
+	border-width: 150 px;
+}
+a:hover {
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+}
+a:visted{
+	color: green;
+}
+}
