@@ -1,6 +1,6 @@
 function rungame(){ 
 namegenerator();  //runs the game. note succescfull completion  of game is almost impossible 
-
+acceptanceofdeal();
 }
 function namegenerator(name){
 	let array_character = [["Ted", "Jeffery", "Ed", "Jack"],[ "Amy", "faye", "Suzan", "Tillie"]];
@@ -14,9 +14,15 @@ function namegenerator(name){
 function rolldice(x){										//x= number of sides of dice being used with 0 and 1 of the sides 
 	return Math.floor(Math.random() * x) + 1;
 }	
- // function acceptanceofdeal(answer)
-	// let acceptance = prompt("will you accept the offer");
- // 	console.log(acceptanceofdeal(acceptance);
+ function acceptanceofdeal(accept){
+	let acceptance = prompt("will you accept the offer");{
+		if (prompt = "yes") 
+			alert ("good have fun on your adventure")
+		else(
+			"alert have fun with your torture")
+}
+ 	console.log(acceptanceofdeal("acceptance"));
+}
 
 						// prompt to ask if you want to accept the offer or not. if not go to game over screen if accepted go to first encounter 
 rungame()
